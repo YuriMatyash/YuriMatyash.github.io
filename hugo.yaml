@@ -12,8 +12,13 @@ languages:
     languageName: "English"
     weight: 1
     contentDir: "content"
+    
 
 params:
+  navbar:
+    disableSearch: true
+    showBrandLogo: false
+
   favicon: "/fav.png"
   animate: true
 
@@ -22,7 +27,7 @@ params:
     enable: true
     title: "Yuri Matyash"
     subtitle: "AI engineer and Software Developer"
-    content: "3rd year Computer Science student at HIT, specializing in AI and Machine Learning. Experienced in developing real-world AI systems and leading technical projects."
+    content: "3rd year Computer Science student at HIT (93.7 GPA), Persuing an M.Sc in CS. specializing in Machine Learning and Deep Learning. Experienced in developing real-world AI systems and leading technical projects. Lead algorithms and software development for the Israeli RoboChallenge team."
     image: /images/hero.jpg
     button:
       enable: true
@@ -41,19 +46,10 @@ params:
     enable: true
     title: "About Me"
     content: |-
-      I am a developer and researcher with a background in classified IDF technical units. My work centers on building reliable, AI-driven systems for real-world applications.
+      I am a high-performing Computer Science student at HIT (GPA 93.7) specializing in Machine Learning and Cybersecurity. My approach to engineering is defined by a mix of academic excellence and an obsession with self-directed R&D, having dedicated over 1,000 hours to mastering Edge AI and Computer Vision beyond the standard curriculum on self directed projects.
 
-      Currently, I lead algorithm development for the Israeli national RoboChallenge team and develop failure-detection models for additive manufacturing.
-    skills:
-      enable: true
-      title: "Core Technical Stack:"
-      items:
-        - "Python"
-        - "C/C++"
-        - "Rust"
-        - "PyTorch"
-        - "YOLO"
-        - "ROS2"
+      As the Lead Software Engineer for Israel's RoboChallenge team, I architected the C++ software stack for our robot on ESP32, securing 14th place globally. Whether I'm building hybrid CNN-RNN architectures for 3D printing anomaly detection or red-teaming LLM agents, I thrive on solving 'unanswered problems' at the intersection of software and hardware.
+
 
   # Experience Section
   experience:
@@ -80,7 +76,7 @@ params:
           name: "Holon Institute of Technology (HIT)"
           url: "https://www.hit.ac.il"
         date: "2023 - 2026 (Expected)"
-        GPA: "92 / 100"
+        GPA: "93.7 / 100"
         content: |-
           Specializing in AI and Machine Learning. Consistently ranked in the top of the cohort.
 
@@ -94,6 +90,44 @@ params:
       - title: "Runway FOD Detection"
         content: "Synthetic dataset generation using Stable Diffusion for fine-tuning hazard detection models."
         badges: ["Generative AI", "Object Detection", "Synthetic Data"]
+
+  achievements:
+    enable: true
+    title: "Technical Skills"
+    items:
+      - title: "Languages"
+        content: |-
+          • Python
+          • C++
+          • C
+          • Rust
+          • Java
+          • SQL
+          • Bash
+
+      - title: "AI & Machine Learning"
+        content: |-
+          • PyTorch
+          • OpenCV
+          • TensorFlow
+          • LLM Agents
+          • Transformers
+          • Edge AI (Intel NCS2)
+
+      - title: "Embedded & Robotics"
+        content: |-
+          • ESP32
+          • Raspberry Pi
+          • FreeRTOS
+          • PID Control
+          • Sensor Fusion
+
+      - title: "DevOps & Tools"
+        content: |-
+          • Linux
+          • Docker
+          • Git
+          • CI/CD
 
   contact:
     enable: true
