@@ -1,0 +1,102 @@
+baseURL: "https://yourusername.github.io/"
+languageCode: "en-us"
+title: "Yuri | CS & AI Portfolio"
+theme: hugo-profile
+
+# Single language configuration
+defaultContentLanguage: "en"
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    contentDir: "content"
+
+params:
+  favicon: "/fav.png"
+  animate: true
+
+  # Hero Section
+  hero:
+    enable: true
+    title: "Yuri Matyash"
+    subtitle: "AI engineer and Software Developer"
+    content: "3rd year Computer Science student at HIT, specializing in AI and Machine Learning. Experienced in developing real-world AI systems and leading technical projects."
+    image: /images/hero.jpg
+    button:
+      enable: true
+      name: "Download Resume"
+      url: "/resume.pdf"
+      download: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: "https://github.com/YuriMatyash"
+        - icon: fab fa-linkedin
+          url: "https://www.linkedin.com/in/yuri-matyash-a4953230b/" # Highly recommended for a 92 GPA student!
+
+  # About Section
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I am a developer and researcher with a background in classified IDF technical units. My work centers on building reliable, AI-driven systems for real-world applications.
+
+      Currently, I lead algorithm development for the Israeli national RoboChallenge team and develop failure-detection models for additive manufacturing.
+    skills:
+      enable: true
+      title: "Core Technical Stack:"
+      items:
+        - "Python"
+        - "C/C++"
+        - "Rust"
+        - "PyTorch"
+        - "YOLO"
+        - "ROS2"
+
+  # Experience Section
+  experience:
+    enable: true
+    title: "Experience"
+    items:
+      - company: "Classified IDF Unit"
+        jobs:
+          - name: "Technical Lead / Specialist"
+            date: "3+ Years Service"
+            content: "Demonstrated high technical ownership and discipline in a high-stakes environment."
+      - company: "National RoboChallenge Team"
+        jobs:
+          - name: "Lead AI & Embedded Software Developer"
+            date: "Aug 2025 - Present"
+            content: "Developing complex algorithms for autonomous robotics competitions."
+
+  # Education Section
+  education:
+    enable: true
+    items:
+      - title: "B.Sc. in Computer Science"
+        school:
+          name: "Holon Institute of Technology (HIT)"
+          url: "https://www.hit.ac.il"
+        date: "2023 - 2026 (Expected)"
+        GPA: "92 / 100"
+        content: |-
+          Specializing in AI and Machine Learning. Consistently ranked in the top of the cohort.
+
+  # Projects Section
+  projects:
+    enable: true
+    items:
+      - title: "SpaghettiNet (BigPrintProtector)"
+        content: "Real-time 3D printing failure detection using YOLOv8, optimized for Voron V0 hardware."
+        badges: ["Computer Vision", "Python", "Klipper"]
+      - title: "Runway FOD Detection"
+        content: "Synthetic dataset generation using Stable Diffusion for fine-tuning hazard detection models."
+        badges: ["Generative AI", "Object Detection", "Synthetic Data"]
+
+  contact:
+    enable: true
+    content: "I'm always looking for interesting projects in AI and Robotics. Feel free to reach out!"
+    btnName: "Get in Touch"
+    btnLink: "mailto:yurimatyash.bsc@example.com"
