@@ -4,6 +4,8 @@
     <div class="container">
         <h3 class="text-center">{{ $projects.title | default .Site.Params.projects.title | default (i18n "projects") }}</h3>
         <div class="row justify-content-center px-3 px-md-5">
+            
+            {{/* 1. STATIC PROJECTS */}}
             {{ range $projects.items | default .Site.Params.projects.items }}
             <div class="col-lg-4 col-md-6 my-3">
                 <div class="card my-3 h-100" title="{{ .title }}">
@@ -11,12 +13,14 @@
                         <img class="card-img-top" src="{{ .image }}" alt="{{ .title }}">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                        <h5 class="card-title bg-transparent mb-2">{{ .title }}</h5>
+                        
                         <div class="pb-2 bg-transparent">
                             {{ range .badges }}
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent mt-1">{{ .title }}</h5>
+                        
                         <div class="card-text bg-transparent secondary-font">
                             {{ .content }}
                         </div>
@@ -42,6 +46,7 @@
                 </div>
             </div>
             {{ end }}
+            
             {{/* 2. DYNAMIC PROJECTS: Pulls from your content/projects/ folder */}}
             {{ range ( where .Site.RegularPages "Section" "projects" ) }}
             {{ if .Params.showInHome | default true }}
@@ -51,16 +56,18 @@
                         <img class="card-img-top" src="{{ .Params.image | default "/images/hero.jpg" }}" alt="{{ .Title }}">
                     </div>
                     <div class="card-body bg-transparent p-3">
+                        <h5 class="card-title bg-transparent mb-2">
+                            <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">
+                                {{ .Title }}
+                            </a>
+                        </h5>
+                        
                         <div class="pb-2 bg-transparent">
                             {{ range .Params.badges }}
                             <span class="badge badge-secondary">{{ . }}</span>
                             {{ end }}
                         </div>
-                        <h5 class="card-title bg-transparent">
-                            <a href="{{ .RelPermalink }}" style="color: inherit; text-decoration: none;">
-                                {{ .Title }}
-                            </a>
-                        </h5>
+                        
                         <div class="card-text bg-transparent secondary-font">
                             {{/* This now pulls the specific 'summary' field from your .md file */}}
                             {{ .Summary | safeHTML }}
@@ -77,6 +84,7 @@
             </div>
             {{ end }}
             {{ end }}
+            
         </div>
     </div>
 </section>

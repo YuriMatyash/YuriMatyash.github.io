@@ -1,7 +1,7 @@
 ---
 title: "SpaghettiNet"
 image: "/images/spaghettiNet/demo.gif"
-badges: ["Computer Vision", "GRU", "CNN", "Transfer Learning", "Fine-Tuning"]
+badges: ["CV / CNN / GRU"]
 tags: ["AI", "3D Printing", "Computer Vision", "GRU", "CNN", "Transfer Learning", "Fine-Tuning"]
 links:
   - icon: fab fa-github

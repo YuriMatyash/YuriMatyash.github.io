@@ -8,6 +8,27 @@
     <language>en-us</language>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Human Final Hand Gesture Prediction</title>
+      <link>http://localhost:1313/projects/rps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/rps/</guid>
+      <description>&lt;p&gt;Human Final Gesture Prediction, showcased through a game of Rock Paper Scissors.&lt;/p&gt;&#xA;&lt;p&gt;Researched and designed a model pipeline utilizing CV, keypoint extraction and GRU for temporal analysis to predict the final human hand gesture.&lt;/p&gt;&#xA;&lt;p&gt;Showcased at Holon&amp;rsquo;s insititue of technology, and was presented to an Azerbaijan delegation visiting HIT&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
+      <title>LLM agentic JailBreaking FrameWork</title>
+      <link>http://localhost:1313/projects/llm-jailbreaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/llm-jailbreaking/</guid>
+      <description>An automated research framework utilizing a multi-agent &amp;lsquo;judge-mutator&amp;rsquo; architecture to evaluate LLM robustness against adversarial injections.</description>
+    </item>
+    <item>
+      <title>RoboChallenge - Line follower</title>
+      <link>http://localhost:1313/projects/robochallenge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/robochallenge/</guid>
+      <description>&lt;p&gt;Lead software development in the Israeli&amp;rsquo;s RoboChallenge line following team.&lt;/p&gt;&#xA;&lt;p&gt;Handled software and algorithms development as part of a 7 man team.&lt;/p&gt;&#xA;&lt;p&gt;Competing in the 2025 Line follower annual competition&lt;/p&gt;&#xA;</description>
+    </item>
+    <item>
       <title>SpaghettiNet</title>
       <link>http://localhost:1313/projects/spaghettinet/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

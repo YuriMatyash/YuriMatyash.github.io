@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Agents on Yuri | CS &amp; AI Portfolio</title>
+    <link>http://localhost:1313/tags/agents/</link>
+    <description>Recent content in Agents on Yuri | CS &amp; AI Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LLM agentic JailBreaking FrameWork</title>
+      <link>http://localhost:1313/projects/llm-jailbreaking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/llm-jailbreaking/</guid>
+      <description>&lt;p&gt;Live mid-print 3D printing failure detection system&lt;/p&gt;&#xA;&lt;p&gt;designed detect and notify about failing prints, saving materials, time and money for the end user.&lt;/p&gt;&#xA;</description>
+    </item>
+  </channel>
+</rss>
