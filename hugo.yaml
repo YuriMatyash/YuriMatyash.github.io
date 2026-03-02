@@ -39,7 +39,7 @@ params:
         - icon: fab fa-github
           url: "https://github.com/YuriMatyash"
         - icon: fab fa-linkedin
-          url: "https://www.linkedin.com/in/yuri-matyash-a4953230b/" # Highly recommended for a 92 GPA student!
+          url: "https://www.linkedin.com/in/yuri-matyash-a4953230b/"
 
   # About Section
   about:
@@ -83,13 +83,6 @@ params:
   # Projects Section
   projects:
     enable: true
-    items:
-      - title: "SpaghettiNet (BigPrintProtector)"
-        content: "Real-time 3D printing failure detection using YOLOv8, optimized for Voron V0 hardware."
-        badges: ["Computer Vision", "Python", "Klipper"]
-      - title: "Runway FOD Detection"
-        content: "Synthetic dataset generation using Stable Diffusion for fine-tuning hazard detection models."
-        badges: ["Generative AI", "Object Detection", "Synthetic Data"]
 
   achievements:
     enable: true
